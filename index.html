@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Simon Game</title> 
+		<link rel="icon" href="images/favicon.png">
+		<link rel="stylesheet" href="styles.css">
+		<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
+	</head>
+
+	<body> 
+
+		<h1>Simon Game</h1> 
+
+		<div class="records">
+			<span class="record-jogador-1">&nbsp;</span> 
+			<span class="record-jogador-2">&nbsp;</span>
+		</div> 
+ 
+		<div class="modo-jogo">
+			<p class="qnt-jogadores">Quantos jogadores?</p> 
+			  
+			<p class="vez">&nbsp;</p>  
+		
+			<input type="button" class="um-player" value="1 Player">  
+			<input type="button" class="dois-players" value="2 Players">  
+
+			<input type="text" id="nome-jogador-1"> 
+			<input type="text" id="nome-jogador-2">  
+		</div>
+
+		<main class="jogo"> 
+			<span class="btn green"></span>
+
+			<span class="btn red"></span> 
+
+			<span class="btn yellow"></span>
+
+			<span class="btn blue"></span>
+
+			<span class="black"></span> 
+
+			<span class="go">GO</span>
+
+			<span class="x">X</span>
+
+			<img src="images/play.png" class="play-btn" alt="Play Button"> 
+		</main>
+
+		<footer class="tamara">Desenvolvido por <span class="tamarap">Tamara P</span></footer>  
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+		<script src="index.js"></script>
+ 
+	</body>
+
+</html>
